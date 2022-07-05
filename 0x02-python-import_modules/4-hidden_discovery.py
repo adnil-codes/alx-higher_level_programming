@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from __name__ == "__main__":
+if __name__ == "__main__":
     import hidden_4
 
     for name in dir(hidden_4):
