@@ -48,4 +48,4 @@ if __name__ == "__main__":
         sys.exit(1)
     board = [0 for col in range(n)]
     checkBoard(board, 0)
-git add .
+
