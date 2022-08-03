@@ -4,6 +4,7 @@
 
 def isSafe(board, row, col):
     '''Checks if position is safe from attack.
+
     Args:
         board: The board state.
         row: The row to check.
@@ -17,6 +18,7 @@ def isSafe(board, row, col):
 
 def checkBoard(board, col):
     '''Checks the board state column by column using backtracking.
+
     Args:
         board: The board state.
         col: The current colum to check.
@@ -48,4 +50,7 @@ if __name__ == "__main__":
         sys.exit(1)
     board = [0 for col in range(n)]
     checkBoard(board, 0)
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5a59e6fab02031a68542d26d1944ef42287c8c2
